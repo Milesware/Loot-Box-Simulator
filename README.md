@@ -1,2 +1,2 @@
 # Loot-Box-Simulator
-A mobile game that will eventually turn into a microtransaction monstrosity
+A mobile game that will definitely not turn into a microtransaction monstrosity
