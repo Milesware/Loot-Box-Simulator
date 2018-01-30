@@ -6,6 +6,8 @@ public class PlayerHealth : MonoBehaviour {
 
     public float Health;
     public GameObject Sword;
+	public GameObject[] Arena;
+	int AlternateID = 0;
 	// Use this for initialization
 	void Start () {
 	}
@@ -29,11 +31,20 @@ public class PlayerHealth : MonoBehaviour {
         Health -= decrease;
     }
 
+	public void SwitchArena()
+	{
+		AlternateID = Mathf.Abs(AlternateID - 1);
+	}
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Sword" & other.gameObject != Sword)
         {
             DecrementHealth(Time.deltaTime * 20);
         }
+		if (other.gameObject == Arena[AlternateID]) 
+		{
+			DecrementHealth (Time.deltaTime * 3);
+		}
     }
 }
