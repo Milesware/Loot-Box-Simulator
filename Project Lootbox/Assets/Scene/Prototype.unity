@@ -216,7 +216,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4427614904417418, guid: 5451939138d850a49b337bb7efb9d0cf, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 6.46
+      value: 5.24
       objectReference: {fileID: 0}
     - target: {fileID: 4427614904417418, guid: 5451939138d850a49b337bb7efb9d0cf, type: 2}
       propertyPath: m_LocalPosition.y
@@ -224,7 +224,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4427614904417418, guid: 5451939138d850a49b337bb7efb9d0cf, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 3.12
+      value: 2.48
       objectReference: {fileID: 0}
     - target: {fileID: 4427614904417418, guid: 5451939138d850a49b337bb7efb9d0cf, type: 2}
       propertyPath: m_LocalRotation.x
@@ -256,7 +256,16 @@ Prefab:
       propertyPath: Arena.Array.data[1]
       value: 
       objectReference: {fileID: 936379544}
-    m_RemovedComponents: []
+    - target: {fileID: 1491484979663926, guid: 5451939138d850a49b337bb7efb9d0cf, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491484979663926, guid: 5451939138d850a49b337bb7efb9d0cf, type: 2}
+      propertyPath: m_Name
+      value: Player_1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114135357460292102, guid: 5451939138d850a49b337bb7efb9d0cf, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 5451939138d850a49b337bb7efb9d0cf, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &805030632
@@ -349,6 +358,29 @@ Prefab:
       propertyPath: Arena.Array.data[1]
       value: 
       objectReference: {fileID: 1455606716}
+    - target: {fileID: 1480849351744666, guid: e82746d5491108b49a297da96b3ccfa4, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480849351744666, guid: e82746d5491108b49a297da96b3ccfa4, type: 2}
+      propertyPath: m_Name
+      value: Player_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114222193259178992, guid: e82746d5491108b49a297da96b3ccfa4,
+        type: 2}
+      propertyPath: playerName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114222193259178992, guid: e82746d5491108b49a297da96b3ccfa4,
+        type: 2}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 136152384672903110, guid: e82746d5491108b49a297da96b3ccfa4,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e82746d5491108b49a297da96b3ccfa4, type: 2}
   m_IsPrefabParent: 0
